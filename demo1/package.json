@@ -1,0 +1,26 @@
+{
+  "name": "learn-gulp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp sass",
+    "start": "gulp watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KotonoSora/demo1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KotonoSora/demo1/issues"
+  },
+  "homepage": "https://github.com/KotonoSora/demo1#readme"
+}
