@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+
+  padding:50px 10px 20px 10px;
+
+}
+
+.container{
+margin: 10px auto;
+width:200px ;
+}
+
+.screen{
+background:rgb(13, 14, 13) ;
+height: 50px;
+width: 100%;
+position: relative;
+}
+.keyboard{
+width: 100%;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.item{
+    height: 50px;
+    outline: none;
+    border: 0.1px solid #ccc;
+}
+.item:hover{
+background-color: blanchedalmond;
+cursor: pointer;
+}
+.item1{
+    grid-column: 1/span 2;
+background-color: lightpink;
+
+}
+.item1:hover{
+    background-color: magenta;
+}
+
+.item2{
+background-color:rgb(247, 222, 226); ;
+
+}
+.item2:hover{
+    background-color: magenta;
+}
+
+.screen .input{
+    position: absolute;
+    top: -40px;
+    right: 5px;
+    font-size: 40px;
+    color: rgb(24, 21, 21);
+    z-index: 222;
+    font-family: simplecode;
+}
+
